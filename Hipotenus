@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Giris {
+    public static void main(String[] args) {
+
+         // A VE B DEKİ YAZILAR SCANNER DEKİ SC NİN AYNISI OLACAK;
+int a, b;
+double c;
+Scanner sc= new Scanner(System.in);
+
+        System.out.println("Enter the first number:");
+        a= sc.nextInt();
+        System.out.println("Enter the second number:");
+        b= sc.nextInt();
+        c= Math.sqrt((a*a)+(b*b));
+        System.out.println("Hipotenus" + c );
+
+    }
+}
